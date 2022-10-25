@@ -1,0 +1,1 @@
+unsalted butter,gram,0.2;milk,gram,0.1;sugar,gram,0.01;flour,litre,5;egg,piece,3;salt,gram,0.01;cream,dl,5;cinnamon,spoon,6;
