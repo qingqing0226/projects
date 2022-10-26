@@ -1,0 +1,523 @@
+/* There are two kinds of rules. One for devices with max-width 959px. One for devices with min-width 960px*/
+
+/* the rules for devices with min-width 960px*/
+/* the general rules for hemsida.html, sortiment.html, bestallning.html, cafe.html, kontakt.html and personal.html */
+*{
+	color: Chocolate;
+}
+main {
+	max-width: 1000px;
+	min-width: 960px;
+	border: 4px double Chocolate;
+	border-radius: 50px;
+	background-color: #efefef;	
+	margin: 10px auto 10px auto;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-family: 'CursiveSerifOblique';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 80px;
+	margin:20px auto 20px auto; 
+}
+nav {
+	text-align: center;
+}
+nav>a {
+	display: inline;
+	margin: 10px 0px;
+	padding:0px 15px; 
+}
+nav>a:link {
+	color: Chocolate;
+	text-decoration: none;
+}
+nav>a:hover {
+	color: Chocolate;
+	text-decoration: underline;
+}
+nav>a:active {
+	color: Chocolate;
+	text-decoration: none;
+	background-color: gray;
+}
+.nav-item {
+	border-right: 1px solid #e7e3d8;
+}
+section {
+	width: 90%;
+	margin: 10px auto;
+}
+footer {
+	text-align: center;
+	clear: left;
+}
+hr {
+	width: 90%;
+	margin-top: 10px;
+}
+/* --end of the rules for all pages-- */
+
+/* the rules for hemsida.html */
+
+img.center {
+	width: 90%;
+	display: block;
+    margin: 10px auto;	
+}
+/* --end of the rules for hemsida.html-- */
+
+/* the rules for sortiment.html */
+.link {
+	width: 90%;
+}
+.container {
+	position: relative;
+	text-align: center;
+}
+.container:hover {
+	opacity: 0.5;
+}
+.centered {
+	font-family: 'CursiveOblique';
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	font-size: 80px;
+	letter-spacing: 0.2em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.center {
+	border: 4px solid #e7e3d8;
+}
+#gototop:link {
+	text-decoration: none;
+}
+#gototop:hover {
+	text-decoration: underline;
+}
+#gototop:active {
+	background-color: gray;
+}
+/* --end of the rules for sortiment.html-- */
+
+/* the rules for bestallning.html */
+#how-to {
+	border: 2px solid #e7e3d8;
+	border-radius: 10px;
+	padding: 10px;
+}
+h3 {
+	font-size: 200%;
+}
+#how-to-content {
+	font-size: 130%;
+}
+#how-to, .customer, .bread, .cake, .cookie {
+	float: left;
+	width: 60%;
+	clear: left;
+	margin-right: 5%;
+}
+#customer, #bread, #cake, #cookie {
+	text-align: left;
+}
+.product {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 120%;
+}
+.product>input {
+	margin-left: 20%;
+}
+#submit-top {
+	width: 40%;
+	position: fixed;
+	top: 80%;
+	left: 65%;
+}
+#up {
+	padding-left: 15%;
+	font-size: 150%;
+}
+#up:link {
+	text-decoration: none;
+}
+#up:hover {
+	text-decoration: underline;
+}
+#up:active {
+	background-color: gray;
+}
+/* --end of the rules for bestallning.html-- */
+
+/* the rules for cafe.html */
+.cafe {
+	width: 40%;
+	float: left;
+	padding: 9px;
+	background-color: #e7e3d8;
+}
+.intro {
+    width: 40%;	
+	float: left;
+	margin-left:40px;
+
+}
+h2 {
+	font-family: 'CursiveSerifOblique';
+	font-size: 40px;
+	text-align: center;
+}
+p.content {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 120%;
+}
+/* --end of the rules for cafe.html-- */
+
+/* the rules for kontakt.html */
+form {
+	text-align: left;
+}
+legend {
+	text-align: center;
+	font-size: 150%;
+}
+fieldset {
+	width: 55%;
+	position: relative;		
+	margin: 50px auto 50px auto;
+	border: 2px solid #e7e3d8;
+	border-radius: 10px;
+}
+input, textarea {
+	font-size: 120%;
+	padding: 5px 5px 5px 20px;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+}
+.submit {
+	width: 40%;
+	font-size: 100%;
+}
+.submit:hover {
+	color: Chocolate;
+	background-color: lightgray;
+}
+.submit:active {
+	color: Chocolate;
+	text-decoration: none;
+	background-color: gray;
+}
+/* --end of the rules for kontakt.html-- */
+
+/* the rules for personal.html */
+#section1, #section2, #section3 {
+	width: 90%;
+	margin: 20px auto;
+}
+img.align-left {
+	float: left;
+	width: 30%;
+	margin-right: 20%;
+	margin-bottom: 10px;
+	margin-left: 3%;
+	padding: 10px;
+	background-color: #e7e3d8;
+}
+img.align-right {
+	width: 30%;
+	padding: 10px;
+	background-color: #e7e3d8;
+}
+#article1, #article2, #article3 {
+	border-radius: 10px;
+	border: 2px dotted brown;
+}
+#article1, #article3 {
+	float: left;
+	width: 40%;
+	margin-left: 10px;
+}
+#article1 {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#article3 {
+	margin-top: 100px;
+}
+#article2 {
+	float: left;
+	width: 40%;
+	clear: left;
+	margin-top: 80px;
+	margin-left: 3%;
+}
+p.personal {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 120%;
+}
+/* --end of the rules for personal.html-- */
+
+/* adjustment for mobile devices which have a maximum width of 960px */
+@media only screen and(max-device-width: 959px){
+		/* the rules for all pages */
+	*{
+		color: Chocolate;
+	}
+	main {
+		max-width: 959px;
+		min-width: 330px;
+		border: 4px double Chocolate;
+		border-radius: 10px;
+		background-color: #efefef;	
+		margin: 10px auto 10px auto;
+		text-align: center;
+	}
+
+	h1{
+		text-align: center;
+		font-family: 'CursiveSerifOblique';
+		font-weight: bold;
+		font-style: italic;
+		font-size: 40px;
+		margin:20px auto 20px auto; 
+	}
+	nav {
+		text-align: center;
+	}
+	nav>a {
+		width: 90%;
+		display: block;
+		margin: 10px auto;
+		padding:0px 15px; 
+	}
+	nav>a:link {
+		color: Chocolate;
+		text-decoration: none;
+	}
+	nav>a:hover {
+		color: Chocolate;
+		text-decoration: underline;
+	}
+	nav>a:active {
+		color: Chocolate;
+		text-decoration: none;
+		background-color: gray;
+	}
+	.nav-item {
+		border-bottom: 1px solid #e7e3d8;
+	}
+	section {
+		width: 90%;
+		margin: 5px auto;
+	}
+	footer {
+		text-align: center;
+	}
+	hr {
+		width: 90%;
+		margin-top: 10px;
+	}
+	/* --end of the rules for all pages-- */
+
+	/* the rules for hemsida.html */
+
+	img.center {
+		width: 90%;
+		display: block;
+		margin: 10px auto;	
+	}
+	/* --end of the rules for hemsida.html-- */
+
+	/* the rules for sortiment.html */
+	.link {
+		width: 90%;
+	}
+	.container {
+		position: relative;
+		text-align: center;
+	}
+	.container:hover {
+		opacity: 0.5;
+	}
+	.centered {
+		font-family: 'CursiveOblique';
+		font-weight: bold;
+		font-style: italic;
+		color: white;
+		font-size: 80px;
+		letter-spacing: 0.2em;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.center {
+		border: 4px solid #e7e3d8;
+	}
+	#gototop:link {
+		text-decoration: none;
+	}
+	#gototop:hover {
+		text-decoration: underline;
+	}
+	#gototop:active {
+		background-color: gray;
+	}
+	/* --end of the rules for sortiment.html-- */
+
+	/* the rules for bestallning.html */
+
+	#how-to {
+		float: left;
+		width: 90%;
+		margin: 20px auto;
+		border: 2px solid #e7e3d8;
+		border-radius: 10px;
+	}
+	h3 {
+		font-size: 200%;
+	}
+	.customer {
+		float: left;
+		clear: left
+		width: 90%;
+		margin-bottom: 20px;
+	}
+	.bread, .cake, .cookie {
+		width: 90%;
+		float: left;
+		clear: left;
+		margin: 0px auto 20px auto;
+	}
+	.product {
+		display: block;
+		margin-bottom: 10px;
+	}
+	#bread, #cake, #cookie, #customer {
+		text-align: left;
+	}
+	#confirm {
+		width: 30%;
+		display: block;
+		clear: left;
+		margin: 10px auto;
+		font-size: 120%;
+	}
+	/* --end of the rules for bestallning.html-- */
+
+	/* the rules for cafe.html */
+	.cafe {
+		width: 90%;
+		float: left;
+		padding: 9px;
+		background-color: #e7e3d8;
+	}
+	.intro {
+		width: 90%;	
+		float: left;
+		clear: left;
+		margin-top: 20px;
+
+	}
+	h2 {
+		font-family: 'CursiveSerifOblique';
+		font-size: 20px;
+		text-align: center;
+	}
+	p.content {
+		font-family: Verdana, Helvetica, sans-serif;
+		font-size: 120%;
+	}
+	/* --end of the rules for cafe.html-- */
+
+	/* the rules for kontakt.html */
+	form {
+		text-align: left;
+	}
+	legend {
+		text-align: center;
+		font-size: 150%;
+	}
+	fieldset {
+		width: 90%;
+		position: relative;		
+		margin: 20px auto 20px auto;
+		border: 2px solid #e7e3d8;
+		border-radius: 5px;
+	}
+	input, textarea {
+		font-size: 120%;
+		padding: 2px 2px 2px 8px;
+		border: 1px solid #bdbdbd;
+		border-radius: 5px;
+	}
+	.submit {
+		width: 40%;
+		font-size: 100%;
+	}
+	.submit:hover {
+		color: Chocolate;
+		background-color: lightgray;
+	}
+	.submit:active {
+		color: Chocolate;
+		text-decoration: none;
+		background-color: gray;
+	}
+	/* --end of the rules for kontakt.html-- */
+
+	/* the rules for personal.html */
+	#section1, #section2, #section3 {
+		width: 90%;
+		margin: 20px auto;
+	}
+	img.align-left {
+		float: left;
+		width: 30%;
+		margin-right: 20%;
+		margin-bottom: 10px;
+		padding: 10px;
+		background-color: #e7e3d8;
+	}
+	img.align-right {
+		width: 30%;
+		padding: 10px;
+		background-color: #e7e3d8;
+	}
+	#article1, #article2, #article3 {
+		border-radius: 10px;
+		border: 2px dotted brown;
+	}
+	#article1, #article3 {
+		float: left;
+		width: 40%;
+		margin-left: 5px;
+	}
+	#article1 {
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	#article3 {
+		margin-top: 100px;
+	}
+	#article2 {
+		float: left;
+		width: 40%;
+		clear: left;
+		margin-top: 80px;
+	}
+	p.personal {
+		font-family: Verdana, Helvetica, sans-serif;
+		font-size: 120%;
+	}
+	/* --end of the rules for personal.html-- */
+}
+/* --end of max 960px-- */

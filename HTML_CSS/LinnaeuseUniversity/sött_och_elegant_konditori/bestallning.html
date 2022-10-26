@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sött & Elegant - Beställning</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link href="styles.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cursive" type="text/css"/>
+  </head>
+  <body>
+    <main>
+	  <header>
+	    <h1>Sött & Elegant</h1>
+		<nav>
+		  <a href="hemsida.html" class="nav-item">STARTSIDA</a>
+		  <a href="sortiment.html" class="nav-item">SORTIMENT</a>
+		  <a href="bestallning.html" class="nav-item">BESTÄLLNING</a>
+		  <a href="cafe.html" class="nav-item">CAFÉ</a>
+		  <a href="kontakt.html" class="nav-item">KONTAKT</a>
+		  <a href="personal.html">PERSONAL</a>
+		</nav>
+		<hr />
+	  </header>
+	  <section>
+	    <form>
+		  <h2>Beställ</h2>
+		  <!-- Instructions -->
+		  <div id="how-to">
+		    <h3>Så här gör du en beställning:</h3>
+		    <p id="how-to-content">1. Fyll i dina kontaktuppgifter<br />
+			   2. Ange antal<br />
+			   3. Bekräfta din beställning<br />
+	        </p>
+		  </div>
+		  <!-- 1. Fyll i dina kontaktuppgifter -->
+		  <fieldset class="customer">
+		    <legend id="customer">Dina Kontaktuppgifter</legend>
+			<p>Vi ska kontakta dig när beställningen är färdig. Då kan du hämta den på butiken.</p>
+			<label class="formspace">Ditt Namn:<br />
+		      <input type="text" name="firstname" size= "30" maxlength= "100">
+		    </label>
+		    <br />
+		    <br />
+		    <label class="formspace">Din E-post:<br />
+		      <input type="text" name="lastname" size= "30" maxlength= "100">
+		    </label>
+		    <br />
+		    <br />
+		    <label class="formspace">Ditt Telefonnummer:<br />
+		      <input type="text" name="epost" size= "30" maxlength= "100">
+		    </label>
+		    <br />
+		    <br />
+		  </fieldset>
+		  <!-- 2. Ange antal -->
+		  <fieldset class="bread">
+		    <legend id="bread">Bröd</legend>
+			<p>Pris: 28.00 kr</p>
+			<label class="product">Baguette
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Cream Puff
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>			
+			<label class="product">Croissant
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>			
+			<label class="product">Frukostbulle
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>			
+			<label class="product">Jordbrukarensbröd
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Jordgubbwienerbröd
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Kanelbulle
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Limpabröd
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Majsbulle
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Pretzel
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Russinbröd
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Scone
+			  <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Vallmofralla
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Vetesurdegsfralla
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Wienerbröd
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+		  </fieldset>
+		  <fieldset class="cake">
+		    <legend id="cake">Tårtor</legend>
+			<p>Pris:<br />
+			storlek 1: 250.00 kr - 6 personer<br />
+			storlek 2: 350.00 kr - 8 personer</p>
+			<label class="product">Ange storlek:
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" />
+			</label>
+			<label class="product">Banantårta
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>			
+			<label class="product">Blandade Bär Mousse
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>			
+			<label class="product">Blandade Bär Pavlova
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>			
+			<label class="product">Blandadebärspaj
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Brownie
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Bröllopstårta 1
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Bröllopstårta 2
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Bröllopstårta 3
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Bröllopstårta 4
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Bröllopstårta 5
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Bröllopstårta 6
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Bröllopstårta 7
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Chokladkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Chokladkaka-Citron
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Chokladkaka-Jordgubbar
+			  <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Fruktmousse
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Frukttart
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Frukttårta
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Födelsedagstårta 1
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Födelsedagstårta 2
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Födelsedagstårta 3
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Födelsedagstårta 4
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Födelsedagstårta 5
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Födelsedagstårta 6
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Födelsedagstårta 7
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Gräddtårta-Choklad
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Gräddtårta-Bär
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Jordgubbspaj
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Jordgubbtårta
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Körsbär Ostkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Körsbärspaj
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Kanelkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Mandelkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Morotskaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Mörk Chokladkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Nötkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Passionfruitkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Rulltårta-Bär
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Rulltårta-Matcha
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Rågbrödpaj
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Rödsammetstårta
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Schwarzwaldtårta
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+		  </fieldset>
+		  <fieldset class="cookie">
+		    <legend id="cookie">Kakor</legend>
+			<p>Pris:<br />
+			25.00 kr - donut<br />
+			20.00 kr - muffin<br />
+			30.00 kr - macaron<br />
+			15.00 kr - övriga</p>
+			<label class="product">Blåbärkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Blåbärmuffin
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Blåbärtart
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Chokladkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Chokladmuffin
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Donut-Blanda
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Donut-Choklad
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Donut-Original
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Donut-Socker
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Hallontart
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Hasselnötkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Lingonmuffin
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Macaron-Aqua
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Macaron-Blanda
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Macaron-Citron
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Macaron-Hallon
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Macaron-Kaffe
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Macaron-Matcha
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Mandarinkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Mandelkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Russinkaka-Påskkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Småkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Stjärnkaka-Julkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+			<label class="product">Vaniljkaka
+              <input type="text" name="quantity" size="2" maxlength="4" value="0" /> st
+			</label>
+		  </fieldset>
+		  <!-- 3. Bekräfta din beställning -->
+		  <div id="submit-top">
+		    <input id="confirm" type="submit" class="submit" value="Bekräfta Din Beställning" />
+			<br />
+			<br />
+		    <a href="#how-to" id="up">Top</a>
+		  <div>
+		</form>
+	  </section>
+	  <footer>
+	    <hr />
+		<p>Öppet: mån-fre 06.00-19.00, lör 08.00-17.00, sön stängt<br />
+           Storgatan 1<br />
+           392 44 Kalmar<br />
+           Telefon: 0460-123456<br />
+           E-post: kontakt@sottochelegant.se</p>
+	  </footer>
+	</main>
+  </body>
+</html>
