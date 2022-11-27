@@ -1,0 +1,30 @@
+[exercise 2]
+part 2
+answer: Degree 4 model gives the best fit because it has the lowest MSE value 443.76
+
+
+[exercise 3]
+part 2
+answer: Training set has 80% data. Test set has 20% data. I chose this division because the training set has to be
+        large enough to be useful for creating a reliable model.
+
+part 6
+answer: Yes, they are the same. The qualitative results seem to follow a logical pattern. Those results are subject to
+        change of based on the size of the training set. However, if the training set reaches a certain size,
+        the effect of the increase of its size becomes minimum. Overall, the difference between two sets seemed normal.
+
+
+[exercise 5]
+part 2
+answer: The difference is that this logistic regression uses stronger regularization. c=1 is the default value.
+        It controls the importance of the regularization term. Smaller C increases regularization.
+
+part 3
+answer: As shown in the graph, at degree 1-2, regularized model has the same number of errors as non-regularized model.
+        At degree 3-9, regularized model produces fewer errors. So regularized model performs best.
+
+
+[exercise 6]
+part 2
+answer: the model with columns [4, 5, 2, 0] is the best one because it has comparatively low average absolute
+        score (2.2463). Feature at column 4 is the most important one because it was selected first.
